@@ -1,5 +1,5 @@
 programa {
-  caracter choice, dificuldade, exite_choice
+  caracter choice, dificuldade, exit_choice
   funcao inicio() {
     escreva ("_________________")
     escreva("Escolha")
@@ -32,8 +32,8 @@ programa {
     se (3 ==  choice) {
       escreva("_____ TEM CERTEZA QUE DESEJA SAIR ? _____")
       escreva("\n                Y/N             \n")
-      leia(exite_choice)
-      se (exite_choice == "Y") {
+      leia(exit_choice)
+      se (exit_choice == "Y") {
         escreva("\nSaindo...")
       }
       senao {
